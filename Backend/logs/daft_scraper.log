@@ -1,0 +1,18 @@
+2025-09-13 21:36:59 | INFO     | __main__:main:62 - 🏠 DublinMap Property Scraper - Interactive Mode
+2025-09-13 21:36:59 | INFO     | __main__:main:63 - ==================================================
+2025-09-13 21:36:59 | INFO     | core.daft_scraper:interactive_scrape:503 - Starting interactive scrape for dublin
+2025-09-13 21:36:59 | INFO     | core.daft_scraper:get_property_count:178 - Getting property count for rent properties in dublin
+2025-09-13 21:36:59 | INFO     | core.daft_scraper:get_property_count:212 - Constructed search path: /property-for-rent/dublin-city
+2025-09-13 21:36:59 | INFO     | core.fetcher:fetch_search_results_json:233 - Fetching search results from: https://www.daft.ie/property-for-rent/dublin-city?page=1
+2025-09-13 21:37:00 | INFO     | core.fetcher:fetch_search_results_json:246 - Successfully extracted __NEXT_DATA__ from page 1
+2025-09-13 21:37:00 | INFO     | core.parser:parse_next_data_search_results:417 - Found 20 listings in __NEXT_DATA__
+2025-09-13 21:37:00 | INFO     | core.parser:parse_next_data_search_results:432 - Parsed 20 properties from __NEXT_DATA__
+2025-09-13 21:37:00 | INFO     | core.daft_scraper:get_property_count:238 - Found 20 rent properties in dublin (total: 771)
+2025-09-13 21:37:00 | INFO     | core.daft_scraper:get_property_count:178 - Getting property count for sale properties in dublin
+2025-09-13 21:37:00 | INFO     | core.daft_scraper:get_property_count:212 - Constructed search path: /property-for-sale/dublin
+2025-09-13 21:37:00 | INFO     | core.fetcher:fetch_search_results_json:233 - Fetching search results from: https://www.daft.ie/property-for-sale/dublin?page=1
+2025-09-13 21:37:00 | INFO     | core.fetcher:fetch_search_results_json:246 - Successfully extracted __NEXT_DATA__ from page 1
+2025-09-13 21:37:00 | INFO     | core.parser:parse_next_data_search_results:417 - Found 20 listings in __NEXT_DATA__
+2025-09-13 21:37:00 | INFO     | core.parser:parse_next_data_search_results:432 - Parsed 20 properties from __NEXT_DATA__
+2025-09-13 21:37:00 | INFO     | core.daft_scraper:get_property_count:238 - Found 20 sale properties in dublin (total: 3738)
+2025-09-13 21:37:06 | ERROR    | __main__:main:84 - ❌ Scraping failed: Scraping interrupted by user
